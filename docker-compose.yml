@@ -1,0 +1,9 @@
+version: '3.2'
+
+services:
+  hw-docker:
+    image: docker-registry.wayproyect.com/hw-docker
+    container_name: hw-docker
+    build:
+      context: .
+      dockerfile: dockerfile
