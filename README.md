@@ -7,8 +7,8 @@ We can use the batch file ```build.bat```
 
 or execute the following commands
 ```sh
-docker build -f arm.dockerfile -t docker-registry.wayproyect.com/hw-docker:arm.
-docker build -f amd64.dockerfile -t docker-registry.wayproyect.com/hw-docker:amd64.
+docker build -f arm.dockerfile -t docker-registry.wayproyect.com/hw-docker:arm .
+docker build -f amd64.dockerfile -t docker-registry.wayproyect.com/hw-docker:amd64 .
 ```
 ### Upload the images
 After compiling you have to upload the images to docker-registry
